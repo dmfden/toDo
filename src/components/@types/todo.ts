@@ -1,12 +1,12 @@
-import { EFilter } from "../../constants/projectConstants";
+import { EFilter } from '../../constants/project-constants'
 
 export interface ITask {
-    id: string,
-    name: string,
-    isDone: boolean,
+  id: string
+  name: string
+  isDone: boolean
 }
 
 export interface ITasks {
-    tasks: ITask[],
-    filter: EFilter;
+  tasks: ITask[]
+  filter: EFilter
 }
